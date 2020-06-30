@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AuthoPage></AuthoPage>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AuthoPage from './components/AuthoPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AuthoPage
   }
 }
 </script>
 
 <style>
+body{
+  width: 100%;
+  height:100%;
+  margin:auto;
+  background-color: #edf1fd;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
