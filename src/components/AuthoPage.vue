@@ -14,10 +14,16 @@
                 </div>
             </div>
         </form>
-        <button class="support">Support</button>
+
+        <button class="support">
+            <!-- <i class="icon-support"></i> -->
+            Support
+        </button>
+
         <div class="logo">
                 <img src="https://img.icons8.com/ios/50/000000/cute-termite.png"/>
         </div>
+
         <div class="poweredby">
             <img src="https://img.icons8.com/ios/50/000000/ant.png"/>
         </div>
@@ -101,7 +107,15 @@ export default {
     border-radius: 15px;
     color:white;
     font-size: 15px;
+    
 }
+/* .icon-support{
+    background-image: url("../assets/support.png");
+    padding-left : 10px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    background-repeat : no-repeat;
+} */
 
 .logo{
     display: flex;

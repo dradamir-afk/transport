@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <AuthoPage></AuthoPage>
+    <!-- <AuthoPage></AuthoPage> -->
+    <SecondPage></SecondPage>
   </div>
 </template>
 
 <script>
-import AuthoPage from './components/AuthoPage.vue'
+// import AuthoPage from './components/AuthoPage.vue';
+import SecondPage from './components/SecondPage.vue'
 
 export default {
   name: 'App',
   components: {
-    AuthoPage
+    // AuthoPage,
+    SecondPage
   }
 }
 </script>
